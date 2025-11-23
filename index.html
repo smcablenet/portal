@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SM Cable Network - Login</title>
+    <title>🔐 SM Cable Network - Login</title>
     <script src="https://unpkg.com/@supabase/supabase-js"></script>
     <script src="config.js"></script>
     <style>
@@ -26,11 +26,12 @@
     <div class="container">
         <div class="header">
             <h1>SM CABLE NETWORK</h1>
-            <div class="support">Support: 01405080401</div>
+            <div class="support">Customer Support: 01405080401</div>
         </div>
         
         <div class="login-form">
-            <h2>Login to Your Account</h2>
+            <h2>🔐 Login to Account</h2>
+            <br>
             <form id="loginForm">
                 <div class="form-group">
                     <label>Phone Number:</label>
@@ -56,9 +57,9 @@
 
     <script>
         // Initialize Supabase
-       // const supabaseUrl = 'https://qludfgyjxepmuvsdduxd.supabase.co';
-        //const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFsdWRmZ3lqeGVwbXV2c2RkdXhkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM5MTAyNDAsImV4cCI6MjA3OTQ4NjI0MH0.3IucLrXIUgEza69Y6WnTp5jqsUrK12PnrdFrs-jEURw';
-       // const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+        const supabaseUrl = 'https://qludfgyjxepmuvsdduxd.supabase.co';
+        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFsdWRmZ3lqeGVwbXV2c2RkdXhkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM5MTAyNDAsImV4cCI6MjA3OTQ4NjI0MH0.3IucLrXIUgEza69Y6WnTp5jqsUrK12PnrdFrs-jEURw';
+        const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
         // Login function
         document.getElementById('loginForm').addEventListener('submit', async (e) => {
