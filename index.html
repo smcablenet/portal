@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SM Cable Network - Login</title>
     <script src="https://unpkg.com/@supabase/supabase-js"></script>
+    <script src="config.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial, sans-serif; background: #f5f5f5; }
@@ -54,8 +55,8 @@
 
     <script>
         // Initialize Supabase
-        const supabaseUrl = 'YOUR_SUPABASE_URL';
-        const supabaseKey = 'YOUR_SUPABASE_ANON_KEY';
+        const supabaseUrl = 'https://qludfgyjxepmuvsdduxd.supabase.co';
+        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFsdWRmZ3lqeGVwbXV2c2RkdXhkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM5MTAyNDAsImV4cCI6MjA3OTQ4NjI0MH0.3IucLrXIUgEza69Y6WnTp5jqsUrK12PnrdFrs-jEURw';
         const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
         // Login function
